@@ -1,27 +1,24 @@
-# SocialLinksProfile
+# Frontend Mentor challenge - Social links profile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+## Welcome! 👋
 
-## Development server
+## Challenge based on
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- HTML
+- CSS
+- Angular
 
-## Code scaffolding
+## Main goal for challenge
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- See hover and focus states for all interactive elements on the page
 
-## Build
+## Plan workflow
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [x] Create drawing from design (structure of design)(1st task)
+- [x] Create of repo (2nd task)
+- [ ] Create HTML layout (3rd task)
+- [ ] Create CSS layout according style guides (4th task)
+- [ ] Create grid layout for mobile first (5th task)
+- [ ] Craete grid layout for desktop (6th task)
+- [ ] Implement JavaScript (7th task)
+- [ ] Tada it is done. Congratulation you reach your goal.🎉

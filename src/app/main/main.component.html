@@ -1,14 +1,14 @@
 
-<main class="main">
-    <div class="main_avatar-data">
-        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica" />
-        <h3>Jessica Randall</h3>
-        <p>Klaipeda, Lithuania</p>
+<main class="main" *ngFor="let pers of person">
+    <div class="avatar">
+        <img class="avatar_image" [src]="pers.photo" alt="{{pers.fullName}}" />
+        <h3 class="avatar_name">{{pers.fullName}}</h3>
+        <p class="avatar_location">{{pers.city}}, {{pers.country}}</p>
     </div>
-    <div class="main_social-links">
-        <h3>"Front-end developer and avid reader."</h3>
-        <a href="https://github.com/Darionas">GitHub</a>
-        <a href="https://www.frontendmentor.io/profile/Darionas">Frontend Mentor</a>
-        <a href="https://www.linkedin.com/in/dario-dario-2a3118231/">Linkedin</a>
+    <div class="social_links">
+        <h3 class="social_links-title">"Front-end developer and avid reader."</h3>
+        <a class="social_link" href='https://github.com/Darionas'>GitHub</a>
+        <a class="social_link" href="https://www.frontendmentor.io/profile/Darionas">Frontend Mentor</a>
+        <a class="social_link" href="https://www.linkedin.com/in/dario-dario-2a3118231/">Linkedin</a>
     </div>
 </main>

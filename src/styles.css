@@ -1,0 +1,62 @@
+
+@import url('reset.css');
+@import url('FM_part.css');
+
+
+:root {
+    /* Primary Color */
+    --green: hsl(75, 94%, 57%);
+
+    /* Neutral Colors */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    
+    /* fonts */
+    --ff-primary: "Inter", sans-serif;
+    --fs-14: 0,875rem;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400); /*base*/
+    font-size: var(--fs-14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--off-black);
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header'
+        'main'
+        'attribution';
+    justify-items: center;
+    margin-top: 3rem;
+    /*border: 2px solid green;*/
+}
+
+/*----------------Mobile layout--------------------*/
+/* style 1st component - mobile */
+
+/* style 2nd component - mobile */
+
+
+
+/* style 3rd component - mobile */
+/*3rd component styled in external file*/
+
+/*---------------------Desktop layout-------------------------*/
+
+
+@media screen and (min-width: 48rem) {
+
+}

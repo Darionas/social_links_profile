@@ -26,30 +26,69 @@ body {
     font-family: var(--ff-primary);
     font-weight: var(--fw-400); /*base*/
     font-size: var(--fs-14);
+    color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--off-black);
 }
 
+/*----------------Mobile layout--------------------*/
+
 .grid__container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-        'header'
-        'main'
+        'container'
         'attribution';
     justify-items: center;
     margin-top: 3rem;
-    /*border: 2px solid green;*/
+    /* border: 2px solid green; */
 }
 
-/*----------------Mobile layout--------------------*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header'
+        'main';
+    justify-items: center;
+    padding: 2.5rem 2rem 2rem;
+    background-color: var(--dark-grey);
+    border-radius: .6rem;
+    /* border: 2px solid yellow; */
+}
+
 /* style 1st component - mobile */
-
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+ }
+ 
 /* style 2nd component - mobile */
-
-
+ .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'avatar'
+        'social__links-title';
+    justify-items: center;
+ }
+ 
+ .avatar {
+    display: grid;
+    justify-items: center;
+    /* border: 2px solid blue; */
+ }
+ 
+ .avatar__image {
+    width: 40%;
+    border-radius: 50%;    
+ }
 
 /* style 3rd component - mobile */
 /*3rd component styled in external file*/
@@ -60,3 +99,31 @@ body {
 @media screen and (min-width: 48rem) {
 
 }
+
+/*---------grid areas naming-----------------*/
+
+.container {
+    grid-area: container;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.avatar {
+    grid-area: avatar;
+}
+
+.social__links-title {
+    grid-area: social__links-title;
+}
+
+
+.attribution {
+    grid-area: attribution;
+}
+

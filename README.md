@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social_links_profile](./assets/images/social-links-profile.jpg)
+![Social_links_profile](/assets/images/social-links-profile.jpg)
 
 
 ### Links
@@ -63,7 +63,7 @@ But created with :heart:
 
 ### Useful resources
 
-- [To set element width](https://stackoverflow.com/questions/74065064/cannot-set-width-of-component#answer-74065118) It let's define element width.
+- [To set element width](https://stackoverflow.com/questions/74065064/cannot-set-width-of-component#answer-74065118) It let's define element width in AngularJS.
 
 ## Author
 

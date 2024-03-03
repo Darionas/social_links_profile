@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social_links_profile](assets/images/social-links-profile.jpg)
+![Social_links_profile](./assets/images/social-links-profile.jpg)
 
 
 ### Links
@@ -41,8 +41,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+  - Flexbox
+  - CSS Grid
 - Mobile-first workflow
 - AngularJS
 

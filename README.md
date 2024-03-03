@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Social_links_profile](/assets/images/social-links-profile.jpg)
+![Social_links_profile](./src/assets/images/social-links-profile.jpg)
 
 
 ### Links

@@ -2,10 +2,10 @@
 <main class="main">
     <div class="avatar" *ngFor="let pers of person">
         <img class="avatar__image" [src]="pers.photo" alt="{{pers.fullName}}" />
-        <h3 class="avatar__name">{{pers.fullName}}</h3>
+        <h2 class="avatar__name">{{pers.fullName}}</h2>
         <p class="avatar__location">{{pers.city}}, {{pers.country}}</p>
     </div>
-    <h3 class="social__links-title">"Front-end developer and avid reader."</h3>
+    <h2 class="social__links-title">"Front-end developer and avid reader."</h2>
     <div class="social__links" *ngFor="let item of links | keyvalue">
         <a class="social__link" [href]='item.value' target="_blank">{{item.key}}</a>
     </div>
